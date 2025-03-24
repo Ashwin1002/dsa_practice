@@ -18,3 +18,12 @@ where,
 a1 = first element
 r = uniform increasing number
 n = length/no of times
+
+Logarithm
+A logarithm is the inverse of an exponent.
+
+log216 = 4
+
+"log216" can be read as "log base 2 of 16", and means "the number of times 2 must be multiplied by itself to equal 16".
+"log216" might also be written as log2(16)
+
