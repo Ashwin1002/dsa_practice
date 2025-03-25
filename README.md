@@ -71,3 +71,30 @@ Merge sort is a recursive sorting algorithm and it's quite a bit faster than bub
 
 Space complexity: O(n) faster for longer list
 Time complexity: O(nlog(n))
+
+**Insertion Sort**
+
+Insertion sort builds a sorted list one item at a time. It's much less efficient on large lists than merge sort because it's O(n^2), but it's actually faster (not in Big O terms, but due to smaller constants) than merge sort on small lists.
+
+Space complexity: O(1)
+Time complexity: O(n^2) and on O(n) on presorted list
+
+**Quick Sort**
+
+Quick sort is an efficient sorting algorithm that's widely used in production sorting implementations. Like merge sort, quick sort is a recursive divide and conquer algorithm.
+
+Divide:
+- Select a pivot element that will preferably end up close to the center of the sorted pack
+- Move everything onto the "greater than" or "less than" side of the pivot
+- The pivot is now in its final position
+- Recursively repeat the operation on both sides of the pivot
+
+Conquer:
+- The array is sorted after all elements have been through the pivot operation
+
+While the version of quicksort that we implemented is almost always able to perform at speeds of O(n*log(n)), its Big O is still technically O(n^2) due to the worst-case scenario. We can fix this by altering the algorithm slightly.
+
+Space complexity: O(1)
+Time complexity: O(n*log(n)) and on worst case O(n^2)
+
+Quick sort is used default in PostgreSQL.
