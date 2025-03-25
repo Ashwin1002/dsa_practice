@@ -50,3 +50,24 @@ O(n!) - factorial
 Dictionary look up by key is a `constant time` algorithm.
 
 Binary serach is `O(log(n))`. The array must be sorted.
+
+
+## Algorithms
+
+### Sorting
+
+**Bubble Sort**
+
+Bubble sort repeatedly steps through a slice and compares adjacent elements, swapping them if they are out of order. It continues to loop over the slice until the whole list is completely sorted. 
+
+Space complexity: O(1)
+Time complexity: O(n^2) on worst case and O(n) on best case(if the array is already sorted)
+
+**Merge Sort**
+
+Merge sort is a recursive sorting algorithm and it's quite a bit faster than bubble sort. It's a divide and conquer algorithm
+-Divide: divide the large problem into smaller problems, and recursively solve the smaller problems
+- Conquer: Combine the results of the smaller problems to solve the large problem
+
+Space complexity: O(n) faster for longer list
+Time complexity: O(nlog(n))
