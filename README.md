@@ -140,3 +140,14 @@ A stack is a data structure that stores ordered items. It's like a list, but its
 | peek      | O(1)  | Return the top item from the stack without modifying the stack |
 | size      | O(1)  | Return the number of items in the stack |
 
+
+**Queue**
+
+A queue is a data structure that stores ordered items. It's like a list, but again, like a stack, its design is more restrictive. A queue only allows items to be added to the tail of the queue and removed from the head of the queue.
+
+| Operation | Big O | Description |
+|-----------|-------|-------------|
+| push      | O(n)  | Add an item to the back of the queue |
+| pop       | O(1)  | Remove and return the front item from the queue |
+| peek      | O(1)  | Return the front item from the queue without modifying the queue |
+| size      | O(1)  | Return the number of items in the queue |
