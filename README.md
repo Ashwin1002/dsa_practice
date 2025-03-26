@@ -2,24 +2,24 @@
 
 ## Maths Formula
 
-Average
+**Average**
 `average = sum of n / total length`
 
-Median
+**Median**
 Odd median
 `(n + 1) / 2`
 Even median
 `(n/2) + (n/2 + 1) / 2`
 where n is the length
 
-Exponent
+**Exponent**
 `a1 * (r^n)`
 where,
 a1 = first element
 r = uniform increasing number
 n = length/no of times
 
-Logarithm
+**Logarithm**
 A logarithm is the inverse of an exponent.
 
 log216 = 4
@@ -32,6 +32,17 @@ In python, log is written as ```math.log(16, 2)```
 Factorial
 `n!` of positive integer only
 example: `3! is equal to 3 * 2 * 1` 
+
+**Fibonacci sequence**
+
+The Fibonacci sequence is a sequence of numbers where each number is the sum of the two numbers before it.
+
+```xn = xn−1 + xn−2```
+where,
+
+`xn` is term number "n"
+`xn−1` is the previous term `(n−1)`
+`xn−2` is the term before that `(n−2)`
 
 ## The Big O Chart
 
@@ -51,6 +62,16 @@ Dictionary look up by key is a `constant time` algorithm.
 
 Binary serach is `O(log(n))`. The array must be sorted.
 
+| Big-O     | Name          | Description |
+|-----------|--------------|-------------|
+| O(1)      | Constant     | Best: The algorithm always takes the same amount of time, regardless of how much data there is. Example: Looking up an item in a list by index. |
+| O(log n)  | Logarithmic  | Great: Algorithms that remove a percentage of the total steps with each iteration. Very fast, even with large amounts of data. Example: Binary search. |
+| O(n)      | Linear       | Good: 100 items, 100 units of work. 200 items, 200 units of work. This is usually the case for a single, non-nested loop. Example: Unsorted array search. |
+| O(n log n)| Linearithmic | Okay: This is slightly worse than linear, but not too bad. Example: Mergesort and other "fast" sorting algorithms. |
+| O(n²)     | Quadratic    | Slow: The amount of work is the square of the input size. 10 inputs, 100 units of work. 100 Inputs, 10,000 units of work. Example: A nested for loop to find all the ordered pairs in a list. |
+| O(n³)     | Cubic        | Slower: If you have 100 items, this does 100³ = 1,000,000 units of work. Example: A triple nested for loop to find all the ordered triples in a list. |
+| O(2ⁿ)     | Exponential  | Horrible: We want to avoid this kind of algorithm at all costs. Adding one to the input doubles the amount of steps. Example: Brute-force guessing results of a sequence of n coin flips. |
+| O(n!)     | Factorial    | Even More Horrible: The algorithm becomes so slow so fast that it is practically unusable. Example: Generating all the permutations of a list. |
 
 ## Algorithms
 
