@@ -119,3 +119,24 @@ Space complexity: O(1)
 Time complexity: O(n*log(n)) and on worst case O(n^2)
 
 Quick sort is used default in PostgreSQL.
+
+## Data Structures
+
+Space complexity in a `list` data type:
+
+`Append`: appending to end of a list is `O(1)`
+`index`: accessing item through an index is `O(1)`
+`delete`: deleting an item from list is `O(n)`
+`searching`: searching an item in a list if `O(n)`
+
+**Stack**
+
+A stack is a data structure that stores ordered items. It's like a list, but its design is more restrictive. It only allows items to be added or removed from the top of the stack. It is a LIFO (last in, first out) data structure.
+
+| Operation | Big O | Description |
+|-----------|-------|-------------|
+| push      | O(1)  | Add an item to the top of the stack |
+| pop       | O(1)  | Remove and return the top item from the stack |
+| peek      | O(1)  | Return the top item from the stack without modifying the stack |
+| size      | O(1)  | Return the number of items in the stack |
+
