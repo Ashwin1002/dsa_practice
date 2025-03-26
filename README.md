@@ -151,3 +151,14 @@ A queue is a data structure that stores ordered items. It's like a list, but aga
 | pop       | O(1)  | Remove and return the front item from the queue |
 | peek      | O(1)  | Return the front item from the queue without modifying the queue |
 | size      | O(1)  | Return the number of items in the queue |
+
+
+**Linked List**
+
+A linked list is a linear data structure where elements are not stored next to each other in memory. The elements in a linked list are linked using references to each other. Example, an element of index 3 carries reference of index 2.
+
+The difference is that Items in a "normal" list are stored next to each other in memory, and to get an item from a List we use a numbered index. With a normal list, all the data is stored in the same place in memory and the index is just a way to find the right spot.
+
+In a linked list, there are no indexes. Each node contains the data itself as well as a reference to the next node in the list. Iterating over a linked list requires starting at the head node and following the next references until you reach the end.
+
+Linked List has `O(1)` insertion and deletion but consumes more memory than normal arrays.
