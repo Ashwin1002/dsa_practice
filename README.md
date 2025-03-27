@@ -162,3 +162,16 @@ The difference is that Items in a "normal" list are stored next to each other in
 In a linked list, there are no indexes. Each node contains the data itself as well as a reference to the next node in the list. Iterating over a linked list requires starting at the head node and following the next references until you reach the end.
 
 Linked List has `O(1)` insertion and deletion but consumes more memory than normal arrays.
+
+**Binary Tree**
+
+One of the most common types of ordered tree is a Binary Search Tree or BST. In addition to the properties we've already talked about, a BST has some additional constraints:
+
+- Instead of an unbounded list of children, each node has at most 2 children
+- The left child's value must be less than its parent's value
+- The right child's value must be greater than its parent's value
+- No two nodes in the BST can have the same value
+
+By ordering the tree this way, we'll be able to add, remove, find, and update nodes much more quickly.
+
+The read, delete, insert or search operation in binary tree for best case is `O(n)` and `O(log n)` for average and worst cases.
