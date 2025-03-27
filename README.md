@@ -175,3 +175,9 @@ One of the most common types of ordered tree is a Binary Search Tree or BST. In 
 By ordering the tree this way, we'll be able to add, remove, find, and update nodes much more quickly.
 
 The read, delete, insert or search operation in binary tree for best case is `O(n)` and `O(log n)` for average and worst cases.
+
+
+**Red-Black Tree**
+A red-black tree is a kind of binary search tree that solves the "balancing" problem. It contains a bit of extra logic to ensure that as nodes are inserted and deleted, the tree remains relatively balanced.
+
+Each node in an RB Tree stores an extra bit, called the "color": either red or black. The "color" ensures that the tree remains approximately balanced during insertions and deletions. When the tree is modified, the new tree is rearranged and repainted to restore the coloring properties that constrain how unbalanced the tree can become in the worst case.
