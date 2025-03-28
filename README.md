@@ -178,6 +178,15 @@ The read, delete, insert or search operation in binary tree for best case is `O(
 
 
 **Red-Black Tree**
+
 A red-black tree is a kind of binary search tree that solves the "balancing" problem. It contains a bit of extra logic to ensure that as nodes are inserted and deleted, the tree remains relatively balanced.
 
 Each node in an RB Tree stores an extra bit, called the "color": either red or black. The "color" ensures that the tree remains approximately balanced during insertions and deletions. When the tree is modified, the new tree is rearranged and repainted to restore the coloring properties that constrain how unbalanced the tree can become in the worst case.
+
+**Hashmaps**
+
+A hash map or "hash table" is a data structure that maps keys to values. The lookup, insertion, and deletion operations of a hashmap have an average computational cost of `O(1)`. Hashmaps are built on top of arrays (or in the case of ours, a Python list).
+
+**Tries**
+
+A trie is also often referred to as a "prefix tree" because it can be used to efficiently find all of the words that start with a given prefix.
